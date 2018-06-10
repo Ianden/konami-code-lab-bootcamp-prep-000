@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   // your code here
-  var index = 0;
+  let index = 0;
 
   document.addEventListener('keydown', (event) => {
   const keyName = event.key;
@@ -29,7 +29,6 @@ function init() {
     } else {
       index = 0;
     }
-    return;
 
   });
 
