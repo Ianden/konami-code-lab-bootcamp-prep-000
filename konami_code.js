@@ -18,7 +18,6 @@ function init() {
   document.addEventListener('keydown', (event) => {
   const keyName = event.key;
   console.log(keyName);
-  if (event.repeat) { return }
 
     if (keyName === codes[index]) {
       index++;
@@ -30,6 +29,10 @@ function init() {
     } else {
       index = 0;
     }
+    document.addEventListener('keydown', (event) => {
+      return;
+    }
+    
   });
 
 }
