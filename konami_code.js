@@ -14,7 +14,6 @@ const codes = [
 function init() {
   // your code here
   var index = 0;
-  window.onLoad = function() {
 
   document.addEventListener('keypress', (event) => {
   const keyName = event.key;
@@ -31,8 +30,6 @@ function init() {
       index = 0;
     }
   });
-
-}
 
 }
 
