@@ -14,9 +14,9 @@ const codes = [
 function init() {
   // your code here
   let index = 0;
+  alert('hello');
 
   document.addEventListener('keydown', (event) => {
-    alert('test');
   const keyName = event.key;
   console.log(keyName);
 
