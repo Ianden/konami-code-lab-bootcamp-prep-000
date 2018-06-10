@@ -18,6 +18,7 @@ function init() {
 
   document.addEventListener('keypress', (event) => {
   const keyName = event.key;
+  console.log(keyName);
 
     if (keyName === codes[index]) {
       index++;
@@ -35,4 +36,4 @@ function init() {
 
 }
 
-init()
+init();
