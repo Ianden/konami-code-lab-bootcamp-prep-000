@@ -16,7 +16,7 @@ function init() {
   var index = 0;
   window.onLoad = function() {
 
-  document.onClick('keypress', (event) => {
+  document.onclick('keypress', (event) => {
   const keyName = event.key;
 
     if (keyName === codes[index]) {
