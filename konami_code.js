@@ -15,7 +15,7 @@ function init() {
   // your code here
   var index = 0;
 
-  document.keyup(function(e) {
+  document.keydown(function(e) {
     keyName = e.which
 
     if (keyName === codes[index]) {
