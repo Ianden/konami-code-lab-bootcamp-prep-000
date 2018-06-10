@@ -11,9 +11,10 @@ const codes = [
   "a"
 ];
 
-function youDidIt(
-  alert("yay");
-)
+function youDidIt() {
+    alert("yay");
+  )
+}
 
 function init() {
   // your code here
