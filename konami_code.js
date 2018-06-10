@@ -15,8 +15,8 @@ function init() {
   // your code here
   var index = 0;
 
-  document.keydown(function(e) {
-    keyName = e.which
+  document.onclick('keypress', (event) => {
+  const keyName = event.key;
 
     if (keyName === codes[index]) {
       index++;
@@ -28,9 +28,7 @@ function init() {
     } else {
       index = 0;
     }
-  })
-
-
+  });
 
 
 }
