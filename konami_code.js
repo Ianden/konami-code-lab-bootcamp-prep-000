@@ -16,6 +16,7 @@ function init() {
   let index = 0;
 
   document.addEventListener('keydown', (event) => {
+    alert('test');
   const keyName = event.key;
   console.log(keyName);
 
@@ -25,7 +26,7 @@ function init() {
       console.log(index)
       console.log(codes.length)
 
-      if (index == codes.length) {
+      if (index === codes.length) {
         alert("Whoop whoop");
       }
 
