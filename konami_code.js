@@ -19,12 +19,13 @@ function init() {
     const key = e.key;
 
     if (key === codes[index]) {
+      console.log(index);
       index++;
 
       if (index === codes.length) {
         alert("Whoop whoop");
       }
-      
+
     } else {
       index = 0;
     }
