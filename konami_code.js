@@ -14,8 +14,9 @@ const codes = [
 function init() {
   // your code here
   var index = 0;
-
-  document.onclick('keypress', (event) => {
+  window.onLoad = function() {
+    
+  document.addEventListener('keypress', (event) => {
   const keyName = event.key;
 
     if (keyName === codes[index]) {
@@ -30,5 +31,6 @@ function init() {
     }
   });
 
+}
 
 }
