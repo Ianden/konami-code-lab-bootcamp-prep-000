@@ -15,7 +15,7 @@ function init() {
   // your code here
   var index = 0;
 
-  document.keydown(function(e) {
+  document.addEventListener('keydown', function(e) {
     keyName = e.which
 
     if (keyName === codes[index]) {
