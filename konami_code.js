@@ -15,7 +15,7 @@ function init() {
   // your code here
   var index = 0;
 
-  document.keyup(function(e)) {
+  document.keyup(function(e) {
     keyName = e.which
 
     if (keyName === codes[index]) {
@@ -30,7 +30,7 @@ function init() {
     }
   }
 
-    
+
 
 
 }
