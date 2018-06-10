@@ -29,7 +29,6 @@ function init() {
 
       if (index === codes.length) {
         youDidIt();
-        alert("Whoop whoop");
       }
 
     } else {
