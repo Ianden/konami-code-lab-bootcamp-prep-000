@@ -18,6 +18,7 @@ function init() {
   document.addEventListener('keyup', (event) => {
   const keyName = event.key;
   console.log(keyName);
+  if (e.repeat) { return }
 
     if (keyName === codes[index]) {
       index++;
