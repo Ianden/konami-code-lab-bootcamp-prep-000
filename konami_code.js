@@ -11,6 +11,10 @@ const codes = [
   "a"
 ];
 
+function youDidIt(
+  alert("yay");
+)
+
 function init() {
   // your code here
   let index = 0;
@@ -24,7 +28,7 @@ function init() {
       console.log(index)
 
       if (index === codes.length) {
-        console.log('whoop')
+        youDidIt();
         alert("Whoop whoop");
       }
 
