@@ -18,13 +18,10 @@ function init() {
   document.addEventListener('keydown', (event) => {
   alert("yooooo");
   const keyName = event.key;
-  console.log(keyName);
 
     if (keyName === codes[index]) {
       index++;
-      console.log('AAAA');
       console.log(index)
-      console.log(codes.length)
 
       if (index === codes.length) {
         alert("Whoop whoop");
