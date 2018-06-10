@@ -12,21 +12,25 @@ const codes = [
 ];
 
 function init() {
+  // your code here
+  var index = 0;
 
+  document.keydown(function(e) {
+    keyName = e.which
 
-  function onKonamiCode(cb) {
-  var input = '';
-  var key = '38384040373937396665';
-  document.addEventListener('keydown', function (e) {
-    input += ("" + e.keyCode);
-    if (input === key) {
-      return cb();
+    if (keyName === codes[index]) {
+      index++;
+
+      if (index === codes.length) {
+        alert("Whoop whoop");
+      }
+
+    } else {
+      index = 0;
     }
-    if (!key.indexOf(input)) return;
-    input = ("" + e.keyCode);
-  });
-}
+  })
 
-onKonamiCode(function () {alert('\o/')})
+
+
 
 }
