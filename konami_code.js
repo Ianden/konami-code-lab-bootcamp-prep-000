@@ -28,6 +28,7 @@ function init() {
 
     } else {
       index = 0;
+      console.log('a');
     }
 
   });
