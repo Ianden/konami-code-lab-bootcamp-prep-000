@@ -15,7 +15,7 @@ function init() {
   // your code here
   var index = 0;
 
-  document.addEventListener('keyup', (event) => {
+  document.addEventListener('keydown', (event) => {
   const keyName = event.key;
   console.log(keyName);
   if (event.repeat) { return }
