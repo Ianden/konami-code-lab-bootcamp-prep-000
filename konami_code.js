@@ -21,6 +21,7 @@ function init() {
 
     if (keyName === codes[index]) {
       index++;
+      console.log('AAAA');
 
       if (index === codes.length - 1) {
         alert("Whoop whoop");
@@ -28,7 +29,6 @@ function init() {
 
     } else {
       index = 0;
-      console.log('a');
     }
 
   });
