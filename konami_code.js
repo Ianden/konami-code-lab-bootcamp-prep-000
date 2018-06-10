@@ -22,6 +22,8 @@ function init() {
     if (keyName === codes[index]) {
       index++;
       console.log('AAAA');
+      console.log(index)
+      console.log(codes.length)
 
       if (index === codes.length - 1) {
         alert("Whoop whoop");
