@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   // your code here
-  let index = 0;
+  var index = 0;
 
   document.addEventListener('keypress', (event) => {
   const keyName = event.key;
