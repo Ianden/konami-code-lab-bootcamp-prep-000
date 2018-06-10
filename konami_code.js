@@ -12,8 +12,7 @@ const codes = [
 ];
 
 function youDidIt() {
-    alert("yay");
-  )
+  alert("yay");
 }
 
 function init() {
