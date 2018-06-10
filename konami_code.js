@@ -12,6 +12,7 @@ const codes = [
 ];
 
 function init() {
+  console.log("hello");
   // your code here
   var index = 0;
 
