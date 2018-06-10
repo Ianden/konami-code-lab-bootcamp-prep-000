@@ -25,7 +25,7 @@ function init() {
       console.log(index)
       console.log(codes.length)
 
-      if (index === codes.length) {
+      if (index == codes.length) {
         alert("Whoop whoop");
       }
 
