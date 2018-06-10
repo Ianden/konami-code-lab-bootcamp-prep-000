@@ -15,7 +15,7 @@ function init() {
   // your code here
   var index = 0;
 
-  document.addEventListener('keypress', (event) => {
+  document.addEventListener('keyup', (event) => {
   const keyName = event.key;
   console.log(keyName);
 
