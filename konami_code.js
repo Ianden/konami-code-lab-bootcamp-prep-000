@@ -29,10 +29,7 @@ function init() {
     } else {
       index = 0;
     }
-    document.addEventListener('keydown', (event) => {
-      return;
-    }
-    
+
   });
 
 }
